@@ -15,5 +15,5 @@ const newCandidate = {
 
 myFunction(newCandidate);
 
-console.log(newCandidate);
+console.log(newCandidate); // { id: 4, name: 'Jawwad' }
 ```

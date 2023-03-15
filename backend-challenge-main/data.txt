@@ -1,1 +1,14 @@
-GGJMRH5pFlnOV1H5
+- Where do I see myself in 2 years. 
+- I want to contribute as much as possible in making Lindera acheive its vision working with the team. 
+However, once I have mastered the aspects of the role I would like to mentor and take up a challening roles as a tech lead and solve more technical challenges.
+
+- What do I bring with me? 
+- I bring the eagerness to learn and master. The above challenge took me about 6 hours with very little Node.js and express.js experience in the past. 
+I had to unlearn and re-learn from the begining. 
+The passion of creating something new for the world with Lindera and the experience of working with medical data and computer vision. 
+The ease to understand and communicate the different verticals of Lindera. Owning to be an individual contributor. 
+
+- How I can help scale the team? 
+- Brainstorming and ideating open source projects that would keep myself as an enginner and motivate the team culture. 
+- Creating a consistent process by helping others. 
+Guarding the quality of the team through countinous code reviews and peer programming. 

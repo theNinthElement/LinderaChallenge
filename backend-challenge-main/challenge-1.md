@@ -10,6 +10,6 @@ function outer(x) {
 const outer1 = outer(1);
 const outer2 = outer(2);
 
-console.log(outer1(3)); // output?
-console.log(outer2(4)); // output?
+console.log(outer1(3)); // output 4
+console.log(outer2(4)); // output 6
 ```
