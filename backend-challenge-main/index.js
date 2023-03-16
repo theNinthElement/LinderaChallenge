@@ -28,6 +28,22 @@ connect();
 app.use('/users', userRouter);
 
 app.listen (PORT, () => {
-    console.log("Server started at port 8000");
+    console.log("Server started at port ", PORT);
 });
 
+async function end() {
+    try {
+        await mongoose.disconnect();
+        console.log("Mongo Shut down");
+    } catch(err) {
+        console.log(err);
+    }
+
+    try {
+        app.exit();
+    } catch(err) {
+        console.log("cannot shut the port")
+    }
+}
+
+module.exports = app
