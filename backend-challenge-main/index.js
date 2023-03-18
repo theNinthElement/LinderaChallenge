@@ -14,9 +14,10 @@ const { PORT } = process.env
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
+// Mongo Db connect 
 async function connect() {
     try {
-        await mongoose.connect(MONGO_URI);
+        await mongoose.connect("mongodb+srv://linderaUser:linderatester@cluster0.5vwammc.mongodb.net/test");
         console.log("Mongo db is connected");
     }catch (error) {
         console.log(error)
@@ -27,6 +28,7 @@ connect();
 
 app.use('/users', userRouter);
 
+// Server initialization 
 app.listen (PORT, () => {
     console.log("Server started at port ", PORT);
 });
