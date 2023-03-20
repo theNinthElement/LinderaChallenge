@@ -9,7 +9,6 @@ const { JWT_SECRET } = process.env;
 
 // create a new user
 router.post('/create', async (req, res) => {
-    console.log("Test reached here")
     const {name, birthdate, zipCode, phoneNumber} = req.body;
     const user = new User({
         name,

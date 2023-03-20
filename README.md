@@ -55,3 +55,8 @@ To run the program :
     ```
     example = /users?sortBy=updatedAt:desc&page=1&limit=5
     ```
+
+* The API is also on a cloud server and can be accessed through 
+    ```
+    https://lindera-ch-api.herokuapp.com/
+    ```
