@@ -39,9 +39,10 @@ To run the program :
     "phoneNumber":"0123456789"}
     ```
 
-    returns an Autheticator token
+    returns an Autheticator token. Please not the Autheticator key is required to access/retrieve/delete and change user data.
+    If you are using Postman to hit the Api, the Autheticator token goes in the Authorization -> Bearer Token.
 
-* The Api has a retrieve service per user level.
+* The Api has a retrieve service per user level with a required authenticator key.
 
     ```
     /users/:userId 
